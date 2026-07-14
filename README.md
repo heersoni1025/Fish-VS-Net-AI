@@ -2,6 +2,9 @@
 
 A reinforcement learning simulation built in **Unity 3D** using **Unity ML-Agents**, where AI-controlled fish learn to collect food while avoiding a falling fishing net. Through rewards, penalties, Ray Perception Sensors, and curriculum learning, the agents gradually develop survival behaviors within a dynamic aquarium environment.
 
+
+<img width="800" height="423" alt="fish-vs-net-demo" src="https://github.com/user-attachments/assets/23804b92-3038-4425-8294-a9d93ea48c55" />
+
 ---
 
 ## 🎥 Project Overview
@@ -122,11 +125,8 @@ This project was inspired by ecological concepts including:
 - Competition for limited resources
 - Reinforcement learning in dynamic environments
 
----
 
-## 📷 GIF
 
-<img width="800" height="423" alt="fish-vs-net-demo" src="https://github.com/user-attachments/assets/23804b92-3038-4425-8294-a9d93ea48c55" />
 
 
 
