@@ -124,9 +124,11 @@ This project was inspired by ecological concepts including:
 
 ---
 
-## 📷 Screenshots
+## 📷 GIF
 
-> Add gameplay screenshots or GIFs here.
+<img width="800" height="423" alt="fish-vs-net-demo" src="https://github.com/user-attachments/assets/23804b92-3038-4425-8294-a9d93ea48c55" />
+
+
 
 ---
 
