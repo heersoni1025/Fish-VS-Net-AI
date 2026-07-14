@@ -1,6 +1,8 @@
 # 🐠 Fish VS Net AI (Unity ML-Agents)
 
-A reinforcement learning simulation built in **Unity 3D** using **Unity ML-Agents**, where fish learn to collect food while avoiding a falling fishing net. The project demonstrates how AI agents can learn survival behaviors through rewards, penalties, and curriculum learning.
+A reinforcement learning simulation built in **Unity 3D** using **Unity ML-Agents**, where AI-controlled fish learn to collect food while avoiding a falling fishing net. Through rewards, penalties, Ray Perception Sensors, and curriculum learning, the agents gradually develop survival behaviors within a dynamic aquarium environment.
+
+---
 
 ## 🎥 Project Overview
 
@@ -9,9 +11,9 @@ In this simulation, multiple fish agents navigate an aquarium environment where 
 - 🍽️ Search for and collect food
 - 🪤 Avoid a dynamically falling fishing net
 - 🌊 Navigate a 3D aquarium environment
-- 🤖 Improve behavior over time using reinforcement learning
+- 🤖 Improve their behavior over time using reinforcement learning
 
-The project models an ecological scenario inspired by fish foraging behavior and predator avoidance.
+The project models an ecological scenario inspired by real-world fish foraging behavior and predator avoidance.
 
 ---
 
@@ -21,10 +23,11 @@ The project models an ecological scenario inspired by fish foraging behavior and
 - Multi-agent fish simulation
 - Dynamic food spawning
 - Falling fishing net hazard
-- Ray Perception Sensors for environmental awareness
+- Ray Perception Sensor 3D for environmental awareness
 - Reward-based learning system
 - Curriculum learning with increasing difficulty
 - 3D aquarium environment
+- PPO (Proximal Policy Optimization) training
 
 ---
 
@@ -47,28 +50,31 @@ As training progresses, the agents learn to balance food collection with avoidin
 
 ## 🎓 Curriculum Learning
 
-The project gradually increases difficulty during training:
+The project gradually increases difficulty during training.
 
 ### Stage 1
 - Food collection only
+- Fish learn basic navigation and reward-seeking behavior
 
 ### Stage 2
 - Falling fishing net introduced
+- Fish must balance collecting food while avoiding danger
 
 ### Stage 3
-- Faster fishing net for a more challenging environment
+- Faster fishing net creates a more challenging environment
+- Fish refine survival strategies under increased difficulty
 
 ---
 
 ## 👁️ Agent Sensors
 
-Each fish uses:
+Each fish agent uses:
 
 - Ray Perception Sensor 3D
 - Vector observations
 - Continuous action space
 
-The agents detect nearby food, obstacles, and the fishing net to make movement decisions.
+These sensors allow the fish to detect nearby food, obstacles, tank boundaries, and the fishing net to make intelligent movement decisions.
 
 ---
 
@@ -83,20 +89,44 @@ The agents detect nearby food, obstacles, and the fishing net to make movement d
 
 ---
 
+## 📁 Repository Contents
+
+This repository contains the custom source code and scripts developed for this project.
+
+To keep the repository lightweight, large Unity-generated folders, build files, and third-party assets have been excluded from version control.
+
+The included scripts are designed to work with compatible **fish**, **food**, and **fishing net** models assigned to the appropriate GameObjects within a Unity scene.
+
+---
+
+## 🎥 Demo
+
+A demonstration video is included in this repository showcasing the trained reinforcement learning agents.
+
+The demo highlights:
+
+- 🐟 Multi-agent fish behavior
+- 🍽️ Food collection
+- 🪤 Fishing net avoidance
+- 📈 Curriculum learning progression
+- 🤖 Reinforcement learning in action
+
+---
+
 ## 📚 Inspiration
 
 This project was inspired by ecological concepts including:
 
 - Fish foraging behavior
 - Predator avoidance
-- Competition for resources
+- Competition for limited resources
 - Reinforcement learning in dynamic environments
 
 ---
 
 ## 📷 Screenshots
 
-> Add screenshots or gameplay GIFs here.
+> Add gameplay screenshots or GIFs here.
 
 ---
 
@@ -104,10 +134,11 @@ This project was inspired by ecological concepts including:
 
 - Fish schooling behavior
 - Hunger and energy system
-- Additional predators
+- Multiple predator types
 - More realistic fish animations
 - Diverse aquatic species
 - More complex underwater ecosystem
+- Dynamic weather or water current effects
 
 ---
 
