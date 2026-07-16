@@ -104,7 +104,7 @@ The included scripts are designed to work with compatible **fish**, **food**, an
 
 ## 🎥 Demo
 
-A demonstration video is included in this repository showcasing the trained reinforcement learning agents.
+A demonstration gif is included in this repository showcasing the trained reinforcement learning agents.
 
 The demo highlights:
 
@@ -124,8 +124,6 @@ This project was inspired by ecological concepts including:
 - Predator avoidance
 - Competition for limited resources
 - Reinforcement learning in dynamic environments
-
-
 
 
 
