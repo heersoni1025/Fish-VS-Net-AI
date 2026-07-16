@@ -5,6 +5,11 @@ A reinforcement learning simulation built in **Unity 3D** using **Unity ML-Agent
 
 <img width="800" height="423" alt="fish-vs-net-demo" src="https://github.com/user-attachments/assets/23804b92-3038-4425-8294-a9d93ea48c55" />
 
+
+
+https://github.com/user-attachments/assets/99ac6c50-9710-4033-9541-1eb36505c661
+
+
 ---
 
 ## 🎥 Project Overview
@@ -104,7 +109,7 @@ The included scripts are designed to work with compatible **fish**, **food**, an
 
 ## 🎥 Demo
 
-A demonstration gif is included in this repository showcasing the trained reinforcement learning agents.
+A demonstration video is included in this repository showcasing the trained reinforcement learning agents.
 
 The demo highlights:
 
