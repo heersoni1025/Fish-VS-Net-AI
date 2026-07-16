@@ -149,7 +149,3 @@ This project was inspired by ecological concepts including:
 
 **Heer Soni**
 
-Computer Science Student  
-Indiana University Bloomington
-
-GitHub: https://github.com/heersoni1025
